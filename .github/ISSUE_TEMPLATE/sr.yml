@@ -1,0 +1,27 @@
+name: System Requirement
+description: Non-functional requirement
+labels: ["type:sr"]
+
+body:
+- type: textarea
+  attributes:
+    label: Requirement Description
+
+- type: dropdown
+  attributes:
+    label: Requirement Type
+    options:
+      - Security
+      - Performance
+      - Reliability
+      - Usability
+      - Maintainability
+
+- type: textarea
+  attributes:
+    label: Constraints
+
+- type: textarea
+  attributes:
+    label: Derived From
+    description: Example NEED-001 or FEAT-001
