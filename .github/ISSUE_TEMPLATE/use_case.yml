@@ -1,0 +1,41 @@
+name: Use Case
+description: Functional behavior of the system
+labels: ["type:use-case"]
+
+body:
+- type: input
+  attributes:
+    label: Actor
+
+- type: textarea
+  attributes:
+    label: Precondition
+
+- type: textarea
+  attributes:
+    label: Main Flow
+
+- type: textarea
+  attributes:
+    label: Alternate / Exception Flow
+
+- type: textarea
+  attributes:
+    label: Related Features (Trace From)
+    description: Example FEAT-001
+
+- type: input
+  attributes:
+    label: Planned Iteration
+
+- type: input
+  attributes:
+    label: Actual Iteration
+
+- type: dropdown
+  attributes:
+    label: Priority
+    options:
+      - High
+      - Medium
+      - Low
