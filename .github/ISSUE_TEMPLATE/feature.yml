@@ -57,8 +57,3 @@ body:
   attributes:
     label: Origin (Trace From)
     description: Related NEED issues such as NEED-001
-
-- type: textarea
-  attributes:
-    label: Related Use Cases (Trace To)
-    description: Example UC-001
