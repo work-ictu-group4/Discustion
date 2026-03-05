@@ -1,0 +1,35 @@
+name: Need
+description: Stakeholder or customer need
+labels: ["type:need"]
+
+body:
+  - type: input
+    id: stakeholder
+    attributes:
+      label: Stakeholder
+      placeholder: Customer
+    validations:
+      required: true
+
+  - type: textarea
+    id: need_description
+    attributes:
+      label: Need Description
+      description: Raw, original request from stakeholder
+      placeholder: Describe the need
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Stakeholder Priority
+      options:
+        - High
+        - Medium
+        - Low
+
+  - type: input
+    id: derived_from
+    attributes:
+      label: Derived From
+      description: Reference Epic or related issue
+      placeholder: "#001"
