@@ -3,33 +3,25 @@ description: Stakeholder or customer need
 labels: ["type:need"]
 
 body:
-  - type: input
-    id: stakeholder
-    attributes:
-      label: Stakeholder
-      placeholder: Customer
-    validations:
-      required: true
+- type: textarea
+  attributes:
+    label: Need Description
+    description: Raw request or problem from stakeholder
 
-  - type: textarea
-    id: need_description
-    attributes:
-      label: Need Description
-      description: Raw, original request from stakeholder
-      placeholder: Describe the need
+- type: dropdown
+  attributes:
+    label: Priority
+    options:
+      - High
+      - Medium
+      - Low
 
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Stakeholder Priority
-      options:
-        - High
-        - Medium
-        - Low
+- type: input
+  attributes:
+    label: Derived From (EPIC)
+    description: Example EPIC-001
 
-  - type: input
-    id: derived_from
-    attributes:
-      label: Derived From
-      description: Reference Epic or related issue
-      placeholder: "#001"
+- type: textarea
+  attributes:
+    label: Related Features (Trace To)
+    description: List feature IDs such as FEAT-001
