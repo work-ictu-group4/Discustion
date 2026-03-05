@@ -19,4 +19,4 @@ body:
 - type: input
   attributes:
     label: Derived From (EPIC)
-    description: Example EPIC-001
+    description: Example EPIC#01
