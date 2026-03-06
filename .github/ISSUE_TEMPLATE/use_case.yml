@@ -41,6 +41,10 @@ body:
 
 - type: input
   attributes:
+    label: Postconditions
+
+- type: input
+  attributes:
     label: Inputs
 
 - type: input
