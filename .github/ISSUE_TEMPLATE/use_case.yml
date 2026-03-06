@@ -5,11 +5,32 @@ labels: ["type:use-case"]
 body:
 - type: input
   attributes:
-    label: Actor
+    label: UC ID
+
+body:
+- type: input
+  attributes:
+    label: UC Name
+
+    - type: textarea
+  attributes:
+    label: Description
+
+- type: input
+  attributes:
+    label: Primary Actor
 
 - type: textarea
   attributes:
+    label: Stakeholders & Interests
+    
+- type: input
+  attributes:
     label: Precondition
+
+- type: input
+  attributes:
+    label: Trigger
 
 - type: textarea
   attributes:
@@ -19,18 +40,31 @@ body:
   attributes:
     label: Alternate / Exception Flow
 
-- type: textarea
+- type: input
   attributes:
-    label: Related Features (Trace From)
-    description: Example FEAT-001
+    label: Inputs
 
 - type: input
   attributes:
-    label: Planned Iteration
+    label: Outputs
 
 - type: input
   attributes:
-    label: Actual Iteration
+    label: Related Features
+
+- type: input
+  attributes:
+    label: Notes / Constraints
+
+- type: dropdown
+  attributes:
+    label: Status
+    options:
+      - Draft
+      - Approved
+      - Implemented
+      - Tested
+      - Done
 
 - type: dropdown
   attributes:
