@@ -11,19 +11,19 @@ body:
   attributes:
     label: Status
     options:
-      - Proposed
-      - Approved
-      - Implemented
-      - Validated
+      - Draft
+      - Under Analysis
+      - Refined
+      - Ready
+      - Rejected
 
 - type: dropdown
   attributes:
     label: Priority
     options:
-      - Must
-      - Should
-      - Could
-      - Won't
+      - High
+      - Medium
+      - Low
 
 - type: dropdown
   attributes:
