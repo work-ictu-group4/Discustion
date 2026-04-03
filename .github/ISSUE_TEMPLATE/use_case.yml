@@ -64,10 +64,10 @@ body:
     label: Status
     options:
       - Draft
-      - Approved
-      - Implemented
-      - Tested
-      - Done
+      - Under Analysis
+      - Refined
+      - Ready
+      - Rejected
 
 - type: dropdown
   attributes:
