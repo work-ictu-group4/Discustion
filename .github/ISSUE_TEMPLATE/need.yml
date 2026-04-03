@@ -15,6 +15,22 @@ body:
       - High
       - Medium
       - Low
+      
+- type: dropdown
+  attributes:
+    label: Difficulty
+    options:
+      - Low
+      - Medium
+      - High
+
+- type: input
+  attributes:
+    label: Target Version
+
+- type: input
+  attributes:
+    label: Cost
 
 - type: input
   attributes:
