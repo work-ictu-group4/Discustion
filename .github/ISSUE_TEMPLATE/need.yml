@@ -12,6 +12,7 @@ body:
   attributes:
     label: Status
     options:
+      - Approved
       - Draft
       - Under Analysis
       - Refined
