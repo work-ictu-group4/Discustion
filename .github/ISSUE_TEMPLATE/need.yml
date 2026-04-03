@@ -10,6 +10,16 @@ body:
 
 - type: dropdown
   attributes:
+    label: Status
+    options:
+      - Draft
+      - Under Analysis
+      - Refined
+      - Ready
+      - Rejected
+
+- type: dropdown
+  attributes:
     label: Priority
     options:
       - High
